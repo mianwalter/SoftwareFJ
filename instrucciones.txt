@@ -1,0 +1,23 @@
+=== Instrucciones del Proyecto - Software FJ ===
+
+Estudiante: Miguel Angel Walteros Rodriguez
+Grupo: 213023_13
+Tutor: Jorge Eduardo Ospina
+
+Hola compañeros de grupo. Dejo aca los archivos del codigo organizados para no enredarnos.
+
+Archivos del programa:
+- excepciones.py: Aca estan las excepciones del sistema para que el programa no se caiga ante fallos de datos o de logica.
+- logger_config.py: Configura el sistema de logs para guardar los eventos.
+- modelos.py: Aca estan las clases como Cliente, Servicio, Reserva y las demas aplicando POO.
+- gestor.py: Tiene la logica de negocio, registra clientes, crea servicios, hace reservas y calcula costos con polimorfismo.
+- gui.py: Contiene la interfaz grafica diseñada en Tkinter.
+- main.py: Es el archivo principal. Al correrlo abre la interfaz grafica, pero tambien puede correr solo en consola.
+
+Como probar el programa:
+1. Abran una terminal en esta carpeta.
+2. Si quieren abrir la interfaz grafica de Tkinter, ejecuten:
+   python3 main.py
+3. Si prefieren ejecutar solo la simulacion automatica de 10 operaciones en consola, ejecuten:
+   python3 main.py --consola
+4. Veran los resultados en pantalla y se creara el archivo sistema.log con todos los registros.
